@@ -1,0 +1,28 @@
+﻿@model DALayer.ViewModels.EmployeeModel
+
+<h2>Add New Employee</h2>
+
+<form asp-action="Add" method="post">
+    <div class="form-group">
+        <label for="Employee_Name">Employee_Name</label>
+        <input type="text" class="form-control" id="Employee_Name" name="Employee_Name">
+        <span asp-validation-for="Employee_Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email">
+    <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="ContactNumber">ContactNumber</label>
+         <input type="text" class="form-control" id="ContactNumber" name="ContactNumber">
+        <span asp-validation-for="ContactNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+    <label for="Emplyee_Password">Emplyee_Password</label>
+    <input type="text" class="form-control" id="Emplyee_Password" name="Emplyee_Password">
+    <span asp-validation-for="Emplyee_Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Employee</button>
+    <a href="/Admin" class="btn btn-secondary" style="margin-left: 10px;">Cancel</a>
+</form>

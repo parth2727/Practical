@@ -1,0 +1,18 @@
+﻿@model DALayer.ViewModels.EmployeeModel
+
+<h2>Leave Request</h2>
+
+<p><strong>Employee Name:</strong> @Model.Employee_Name</p>
+<p><strong>Leave Balance:</strong> @Model.LeaveBalance</p>
+<p><strong>Request Status:</strong> @(Model.RequestStatus ? "Pending" : "No Request")</p>
+
+@if (!Model.RequestStatus)
+{
+    <form asp-action="SubmitLeaveRequest" method="post">
+        <button type="submit" class="btn btn-primary">Send Leave Request</button>
+    </form>
+}
+else
+{
+    <p class="text-warning">You already have a pending leave request.</p>
+}

@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\Practical\BALayer\bin\Debug\net8.0\BALayer.deps.json
+C:\Users\Lenovo\source\repos\Practical\BALayer\bin\Debug\net8.0\BALayer.dll
+C:\Users\Lenovo\source\repos\Practical\BALayer\bin\Debug\net8.0\BALayer.pdb
+C:\Users\Lenovo\source\repos\Practical\BALayer\bin\Debug\net8.0\DALayer.dll
+C:\Users\Lenovo\source\repos\Practical\BALayer\bin\Debug\net8.0\DALayer.pdb
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\BALayer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\BALayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\BALayer.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\BALayer.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\BALayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\BALayer.csproj.Up2Date
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\BALayer.dll
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\refint\BALayer.dll
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\BALayer.pdb
+C:\Users\Lenovo\source\repos\Practical\BALayer\obj\Debug\net8.0\ref\BALayer.dll

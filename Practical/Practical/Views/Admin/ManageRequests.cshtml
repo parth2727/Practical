@@ -1,0 +1,29 @@
+﻿@model IEnumerable<DALayer.ViewModels.EmployeeModel>
+
+<h2>Manage Leave Requests</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee Name</th>
+            <th>Leave Balance</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Employee_Name</td>
+                <td>@employee.LeaveBalance</td>
+                <td>
+                    <form asp-action="UpdateLeaveRequestStatus" method="post">
+                        <input type="hidden" name="employeeId" value="@employee.EmployeeId" />
+                        <button name="isApproved" value="true" class="btn btn-success btn-sm">Approve</button>
+                        <button name="isApproved" value="false" class="btn btn-danger btn-sm">Reject</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

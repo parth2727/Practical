@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\Practical\DALayer\bin\Debug\net8.0\DALayer.deps.json
+C:\Users\Lenovo\source\repos\Practical\DALayer\bin\Debug\net8.0\DALayer.dll
+C:\Users\Lenovo\source\repos\Practical\DALayer\bin\Debug\net8.0\DALayer.pdb
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\DALayer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\DALayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\DALayer.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\DALayer.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\DALayer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\DALayer.dll
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\refint\DALayer.dll
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\DALayer.pdb
+C:\Users\Lenovo\source\repos\Practical\DALayer\obj\Debug\net8.0\ref\DALayer.dll

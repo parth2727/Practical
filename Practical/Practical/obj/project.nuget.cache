@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "/yPJYWGgRnM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Practical\\Practical\\Practical.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.options\\9.0.0\\microsoft.extensions.options.9.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.3.0\\microsoft.identitymodel.abstractions.8.3.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.3.0\\microsoft.identitymodel.jsonwebtokens.8.3.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.identitymodel.logging\\8.3.0\\microsoft.identitymodel.logging.8.3.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.3.0\\microsoft.identitymodel.tokens.8.3.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\npgsql\\9.0.2\\npgsql.9.0.2.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.3.0\\system.identitymodel.tokens.jwt.8.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

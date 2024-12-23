@@ -1,0 +1,36 @@
+﻿@model List<DALayer.ViewModels.EmployeeModel>
+<a href="/Admin/Add" class="btn btn-primary">Add New Employee</a>
+<a href="/Admin/ManageRequests" class="btn btn-primary">Manage Leave Requests</a>
+<button id="deleteSelected" class="btn btn-danger" style="margin-left: 10px;">Delete Selected</button>
+<table style="width: 100%; border: 1px solid #ddd;">
+    <thead>
+        <tr>
+            <th><input type="checkbox" id="selectAll"></th>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Available Leave</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td><input type="checkbox" class="selectItem" value="@employee.EmployeeId" /></td>
+                <td>@employee.EmployeeId</td>
+                <td>@employee.Employee_Name</td>
+                <td>@employee.Email</td>
+                <td>@employee.LeaveBalance</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@employee.EmployeeId">Edit</a>
+                     <a asp-action="Details" asp-route-id="@employee.EmployeeId">Details</a>
+                      <a asp-action="Delete" asp-route-id="@employee.EmployeeId">Delete</a>
+                    @* <a href="/Admin/Edit/@employee.EmployeeId" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="/Admin/Delete/@employee.EmployeeId" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="/Admin/Details/@employee.EmployeeId" class="btn btn-info btn-sm">Details</a> *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
